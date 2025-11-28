@@ -36,7 +36,7 @@ A modern, privacy-focused collection of free online tools built with Next.js 14 
 
 ```bash
 # Clone the repository
-git clone https://github.com/Mosuzzzz/toolmate.git
+git clone https://github.com/Mosuzzzz/ToolMate.git
 
 # Navigate to project directory
 cd toolmate
@@ -130,9 +130,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 👤 Author
 
