@@ -36,7 +36,7 @@ A modern, privacy-focused collection of free online tools built with Next.js 14 
 
 ```bash
 # Clone the repository
-git clone https://github.com/Mosuzzzz/ToolMate.git
+git clone https://github.com/Mosuzzzz/toolmate.git
 
 # Navigate to project directory
 cd toolmate
@@ -105,15 +105,6 @@ npm run start        # Start production server
 npm run lint         # Run ESLint
 ```
 
-## 🌐 Deployment
-
-### Deploy to Vercel (Recommended)
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/yourusername/toolmate)
-
-1. Push your code to GitHub
-2. Import project to Vercel
-3. Deploy with one click
 
 ### Environment Variables
 
@@ -147,7 +138,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Patiphan**
 - Email: devpatiphan@gmail.com
-- GitHub: [@yourusername](https://github.com/yourusername)
+- GitHub: [@Mosuzzzz](https://github.com/Mosuzzzz)
 
 ## 🙏 Acknowledgments
 
