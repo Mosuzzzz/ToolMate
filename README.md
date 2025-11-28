@@ -36,7 +36,7 @@ A modern, privacy-focused collection of free online tools built with Next.js 14 
 
 ```bash
 # Clone the repository
-git clone https://github.com/Mosuzzzz/toolmate.git
+git clone https://github.com/Mosuzzzz/ToolMate.git
 
 # Navigate to project directory
 cd toolmate
