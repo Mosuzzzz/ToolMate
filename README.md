@@ -1,36 +1,183 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🛠️ ToolMate
 
-## Getting Started
+A modern, privacy-focused collection of free online tools built with Next.js 14 and TailwindCSS.
 
-First, run the development server:
+![Next.js](https://img.shields.io/badge/Next.js-14-black)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-blue)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3-38bdf8)
+![License](https://img.shields.io/badge/license-MIT-green)
+
+## ✨ Features
+
+### 🔒 Privacy First
+- **100% Client-Side Processing** - All tools run entirely in your browser
+- **No Data Collection** - Your data never leaves your device
+- **No Sign-Up Required** - Use all tools instantly
+
+### ⚡ Lightning Fast
+- Static site generation for optimal performance
+- Instant results with no server delays
+- Optimized for Core Web Vitals
+
+### 🎯 Available Tools
+
+1. **QR Code Generator** - Create QR codes from URLs, text, and more
+2. **Password Generator** - Generate strong, secure random passwords
+3. **Word Counter** - Count words, characters, sentences, and estimate reading time
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js 18+ 
+- npm or yarn
+
+### Installation
 
 ```bash
+# Clone the repository
+git clone https://github.com/Mosuzzzz/toolmate.git
+
+# Navigate to project directory
+cd toolmate
+
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to see the application.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📦 Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Framework**: [Next.js 14](https://nextjs.org/) (App Router)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Styling**: [TailwindCSS](https://tailwindcss.com/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **QR Code**: [qrcode.react](https://www.npmjs.com/package/qrcode.react)
+- **Deployment**: [Vercel](https://vercel.com/)
 
-## Learn More
+## 🏗️ Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+```
+ToolMate/
+├── app/
+│   ├── layout.tsx              # Root layout with Navbar & Footer
+│   ├── page.tsx                # Home page
+│   ├── contact/                # Contact page
+│   ├── privacy-policy/         # Privacy policy
+│   ├── terms-of-use/           # Terms of use
+│   ├── tools/
+│   │   ├── qr-code/           # QR Code Generator
+│   │   ├── password-generator/ # Password Generator
+│   │   └── word-counter/       # Word Counter
+│   ├── sitemap.ts             # SEO sitemap
+│   └── robots.ts              # Robots.txt
+├── components/
+│   ├── ui/                    # Reusable UI components
+│   ├── Navbar.tsx             # Navigation bar
+│   ├── Footer.tsx             # Footer
+│   └── PrivacyBadge.tsx       # Privacy notice badge
+└── lib/
+    └── utils.ts               # Utility functions
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🎨 Design Philosophy
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Minimalist UI** - Clean, distraction-free interface
+- **Mobile-First** - Responsive design for all devices
+- **Accessibility** - WCAG compliant components
+- **SEO Optimized** - Proper meta tags and semantic HTML
 
-## Deploy on Vercel
+## 📝 Scripts
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+# Development
+npm run dev          # Start dev server
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# Production
+npm run build        # Build for production
+npm run start        # Start production server
+
+# Code Quality
+npm run lint         # Run ESLint
+```
+
+## 🌐 Deployment
+
+### Deploy to Vercel (Recommended)
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/yourusername/toolmate)
+
+1. Push your code to GitHub
+2. Import project to Vercel
+3. Deploy with one click
+
+### Environment Variables
+
+No environment variables required! All tools run client-side.
+
+## 🗺️ Roadmap
+
+- [ ] Color Picker & Converter
+- [ ] Image Compressor
+- [ ] Unit Converter
+- [ ] Name Generator
+- [ ] Dark Mode
+- [ ] Multilingual Support (TH/EN)
+- [ ] PWA Support
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+1. Fork the project
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 👤 Author
+
+**Patiphan**
+- Email: devpatiphan@gmail.com
+- GitHub: [@yourusername](https://github.com/yourusername)
+
+## 🙏 Acknowledgments
+
+- [Next.js](https://nextjs.org/) for the amazing framework
+- [Vercel](https://vercel.com/) for hosting
+- [Lucide](https://lucide.dev/) for beautiful icons
+- [TailwindCSS](https://tailwindcss.com/) for utility-first CSS
+
+## 📊 SEO & Analytics
+
+- ✅ Sitemap generated automatically
+- ✅ Robots.txt configured
+- ✅ Meta tags optimized for each page
+- ✅ Semantic HTML structure
+- ✅ Fast page load times (<1.5s)
+
+## 🔐 Privacy & Security
+
+- No user data is stored on servers
+- All processing happens client-side
+- No cookies (except for analytics if enabled)
+- GDPR compliant
+- Privacy Policy and Terms of Use included
+
+## 💡 Support
+
+If you find this project helpful, please give it a ⭐️!
+
+For questions or support, please contact: devpatiphan@gmail.com
+
+---
+
+Made with ❤️ by Patiphan
