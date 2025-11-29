@@ -49,7 +49,7 @@ export function AdBanner({
         ref={adRef}
         className="adsbygoogle"
         style={{ display: "block", minHeight: "100px" }}
-        data-ad-client="ca-pub-XXXXXXXXXXXXXXXX" // Replace with your AdSense ID
+        data-ad-client="ca-pub-3132521575528225" // Replace with your AdSense ID
         data-ad-slot={dataAdSlot}
         data-ad-format={dataAdFormat}
         data-full-width-responsive={dataFullWidthResponsive.toString()}
