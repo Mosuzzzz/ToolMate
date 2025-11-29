@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { PasswordTool } from "./PasswordTool";
 import { PrivacyBadge } from "@/components/PrivacyBadge";
+import { AdBanner } from "@/components/AdBanner";
 
 export const metadata: Metadata = {
   title: "Strong Password Generator - ToolMate",
@@ -18,6 +19,7 @@ export default function PasswordPage() {
       </div>
       <PrivacyBadge />
       <PasswordTool />
+      <AdBanner dataAdSlot="1234567892" />
     </div>
   );
 }

@@ -7,6 +7,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import { AdBanner } from "@/components/AdBanner";
 
 export default function Home() {
   const tools = [
@@ -95,6 +96,9 @@ export default function Home() {
           </Link>
         ))}
       </div>
+
+      {/* Ad Banner */}
+      <AdBanner dataAdSlot="1234567890" />
     </div>
   );
 }

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { QrTool } from "./QrTool";
 import { PrivacyBadge } from "@/components/PrivacyBadge";
+import { AdBanner } from "@/components/AdBanner";
 
 export const metadata: Metadata = {
   title: "QR Code Generator - ToolMate",
@@ -18,6 +19,7 @@ export default function QrCodePage() {
       </div>
       <PrivacyBadge />
       <QrTool />
+      <AdBanner dataAdSlot="1234567891" />
     </div>
   );
 }

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 
 import { Navbar } from "@/components/Navbar";
@@ -20,6 +21,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        {/* Google AdSense */}
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX"
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
+      </head>
       <body className={cn(inter.className, "min-h-screen bg-slate-50 font-sans antialiased leading-relaxed text-slate-900")}>
         <div className="relative flex min-h-screen flex-col">
           <Navbar />

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { WordCounterTool } from "./WordCounterTool";
 import { PrivacyBadge } from "@/components/PrivacyBadge";
+import { AdBanner } from "@/components/AdBanner";
 
 export const metadata: Metadata = {
   title: "Word Counter - ToolMate",
@@ -18,6 +19,7 @@ export default function WordCounterPage() {
       </div>
       <PrivacyBadge />
       <WordCounterTool />
+      <AdBanner dataAdSlot="1234567893" />
     </div>
   );
 }
