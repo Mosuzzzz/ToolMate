@@ -21,15 +21,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head />
-      <body className={cn(inter.className, "min-h-screen bg-slate-50 font-sans antialiased leading-relaxed text-slate-900")}>
-        {/* Google AdSense */}
+      <head>
         <Script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3132521575528225"
           crossOrigin="anonymous"
           strategy="afterInteractive"
         />
+      </head>
+      <body className={cn(inter.className, "min-h-screen bg-slate-50 font-sans antialiased leading-relaxed text-slate-900")}>
         <div className="relative flex min-h-screen flex-col">
           <Navbar />
           <main className="flex-1 container py-6">{children}</main>
