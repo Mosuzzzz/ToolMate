@@ -21,7 +21,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
+      <head />
+      <body className={cn(inter.className, "min-h-screen bg-slate-50 font-sans antialiased leading-relaxed text-slate-900")}>
         {/* Google AdSense */}
         <Script
           async
@@ -29,8 +30,6 @@ export default function RootLayout({
           crossOrigin="anonymous"
           strategy="afterInteractive"
         />
-      </head>
-      <body className={cn(inter.className, "min-h-screen bg-slate-50 font-sans antialiased leading-relaxed text-slate-900")}>
         <div className="relative flex min-h-screen flex-col">
           <Navbar />
           <main className="flex-1 container py-6">{children}</main>
