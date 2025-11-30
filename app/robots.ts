@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
             userAgent: '*',
             allow: '/',
         },
-        sitemap: 'https://toolmate.vercel.app/sitemap.xml', // Update with your actual domain
+        sitemap: 'https://tool-mate-theta.vercel.app/sitemap.xml',
     }
 }

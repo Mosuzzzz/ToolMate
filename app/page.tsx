@@ -97,6 +97,45 @@ export default function Home() {
         ))}
       </div>
 
+      {/* Content Section */}
+      <div className="prose prose-slate max-w-none mt-16 pt-8 border-t">
+        <section>
+          <h2 className="text-2xl font-bold tracking-tight mb-4">Your Go-To Suite for Digital Utilities</h2>
+          <p className="text-slate-600 mb-4">
+            ToolMate provides a collection of essential online tools designed to make your digital life easier. 
+            Whether you need to generate a secure password, create a QR code for your business, or analyze text 
+            for a writing project, our tools are here to help—completely free and without any installation.
+          </p>
+          <p className="text-slate-600 mb-4">
+            We prioritize your privacy and security. Unlike many other online utilities, our tools run entirely 
+            in your web browser. This means your sensitive data, such as passwords or personal text, never leaves 
+            your device. You get the convenience of cloud tools with the security of offline software.
+          </p>
+        </section>
+        
+        <section className="mt-8">
+           <h3 className="text-xl font-semibold mb-3">Why ToolMate?</h3>
+           <div className="grid md:grid-cols-2 gap-6">
+              <div>
+                <h4 className="font-medium text-slate-900 mb-2">Security First</h4>
+                <p className="text-slate-600 text-sm">Client-side processing ensures your data stays yours.</p>
+              </div>
+              <div>
+                 <h4 className="font-medium text-slate-900 mb-2">No Friction</h4>
+                 <p className="text-slate-600 text-sm">No accounts, no logins, no paywalls. Just open and use.</p>
+              </div>
+              <div>
+                 <h4 className="font-medium text-slate-900 mb-2">Fast &amp; Responsive</h4>
+                 <p className="text-slate-600 text-sm">Optimized for performance on all devices, from desktop to mobile.</p>
+              </div>
+              <div>
+                 <h4 className="font-medium text-slate-900 mb-2">Always Improving</h4>
+                 <p className="text-slate-600 text-sm">We regularly add new tools and features based on user feedback.</p>
+              </div>
+           </div>
+        </section>
+      </div>
+
       {/* Ad Banner */}
       <AdBanner dataAdSlot="1234567890" />
     </div>

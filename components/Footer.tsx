@@ -26,6 +26,7 @@ export function Footer() {
           .
         </p>
         <div className="flex gap-4 text-sm text-slate-500">
+            <Link href="/about" className="hover:underline">About</Link>
             <Link href="/privacy-policy" className="hover:underline">Privacy Policy</Link>
             <Link href="/terms-of-use" className="hover:underline">Terms of Use</Link>
             <Link href="/contact" className="hover:underline">Contact</Link>

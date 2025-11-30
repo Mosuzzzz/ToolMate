@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-    const baseUrl = 'https://toolmate.vercel.app' // Update this with your actual domain
+    const baseUrl = 'https://tool-mate-theta.vercel.app'
 
     return [
         {
@@ -27,6 +27,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
             lastModified: new Date(),
             changeFrequency: 'monthly',
             priority: 0.8,
+        },
+        {
+            url: `${baseUrl}/about`,
+            lastModified: new Date(),
+            changeFrequency: 'yearly',
+            priority: 0.5,
         },
         {
             url: `${baseUrl}/privacy-policy`,
